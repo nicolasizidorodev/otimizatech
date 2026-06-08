@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1482 1062"
+     width="1482" height="1062">
+
+  <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- ================================================================
+         DETAILS  (desk surface — drawn first so it sits behind everything)
+         ================================================================ -->
+    <g id="details" stroke-width="5">
+
+      <!-- Desk surface main line -->
+      <path d="M 48 856 Q 741 875 1446 856"/>
+
+      <!-- Desk shadow / depth line -->
+      <path d="M 88 898 Q 741 912 1402 898" stroke-width="3"/>
+
+      <!-- Laptop base shadow underline -->
+      <path d="M 384 812 Q 380 832 395 838
+               L 1205 838 Q 1214 832 1210 812" stroke-width="4"/>
+
+    </g>
+
+
+    <!-- ================================================================
+         NOTEBOOK
+         ================================================================ -->
+    <g id="notebook" stroke-width="7">
+
+      <!-- Left page -->
+      <path d="M 62 492 Q 52 640 68 840 L 325 848 Q 322 662 330 510 Z"/>
+
+      <!-- Right page (partially behind laptop) -->
+      <path d="M 330 510 Q 334 662 340 848 L 432 840 Q 428 662 422 514 Z"/>
+
+      <!-- Book spine -->
+      <path d="M 325 848 Q 328 662 330 510" stroke-width="5"/>
+
+      <!-- Left page ruled lines -->
+      <path d="M 84 558 L 308 548" stroke-width="3.5"/>
+      <path d="M 82 590 L 305 580" stroke-width="3.5"/>
+      <path d="M 80 622 L 302 612" stroke-width="3.5"/>
+      <path d="M 78 654 L 299 644" stroke-width="3.5"/>
+      <path d="M 76 686 L 296 676" stroke-width="3.5"/>
+      <path d="M 74 718 L 292 708" stroke-width="3.5"/>
+      <path d="M 72 750 L 288 740" stroke-width="3.5"/>
+      <path d="M 70 782 L 285 772" stroke-width="3.5"/>
+
+      <!-- Right page ruled lines -->
+      <path d="M 348 526 L 422 528" stroke-width="3.5"/>
+      <path d="M 347 558 L 421 560" stroke-width="3.5"/>
+      <path d="M 346 590 L 420 592" stroke-width="3.5"/>
+      <path d="M 345 622 L 419 624" stroke-width="3.5"/>
+
+      <!-- Spiral binding along left edge -->
+      <path d="M 64 492 Q 50 510 64 528
+               Q 78 546 64 564
+               Q 50 582 64 600
+               Q 78 618 64 636
+               Q 50 654 64 672
+               Q 78 690 64 708
+               Q 50 726 64 744
+               Q 78 762 64 780
+               Q 50 798 64 816
+               Q 78 834 64 848"
+            stroke-width="5"/>
+
+    </g>
+
+
+    <!-- ================================================================
+         PEN
+         ================================================================ -->
+    <g id="pen" stroke-width="7">
+
+      <!-- Pen body (diagonal across notebook) -->
+      <path d="M 350 548 L 158 452"/>
+
+      <!-- Tip taper -->
+      <path d="M 158 452 L 142 436"/>
+
+      <!-- Nib point -->
+      <path d="M 142 436 Q 134 426 147 430"/>
+
+      <!-- End cap -->
+      <path d="M 350 548 L 370 558"/>
+
+      <!-- Ferrule ring -->
+      <path d="M 220 480 Q 227 484 224 490" stroke-width="5"/>
+
+    </g>
+
+
+    <!-- ================================================================
+         LAPTOP
+         ================================================================ -->
+    <g id="laptop" stroke-width="9">
+
+      <!-- Screen bezel outer frame -->
+      <path d="M 530 86 L 1062 86 L 1090 620 L 502 620 Z"/>
+
+      <!-- Screen display area -->
+      <path d="M 566 120 L 1026 120 L 1052 586 L 539 586 Z"/>
+
+      <!-- Hinge fold line -->
+      <path d="M 502 620 L 418 650 L 1172 650 L 1090 620" stroke-width="7"/>
+
+      <!-- Keyboard base -->
+      <path d="M 418 650 L 1172 650 L 1206 812 L 384 812 Z"/>
+
+      <!-- Touchpad -->
+      <rect x="706" y="702" width="188" height="76" rx="10" stroke-width="6"/>
+
+      <!-- Keyboard row divider -->
+      <path d="M 446 667 L 1148 667" stroke-width="3.5"/>
+
+      <!-- Key row hints -->
+      <path d="M 456 684 L 700 684" stroke-width="3"/>
+      <path d="M 720 684 L 1140 684" stroke-width="3"/>
+      <path d="M 452 701 L 700 701" stroke-width="3"/>
+      <path d="M 902 701 L 1132 701" stroke-width="3"/>
+
+    </g>
+
+
+    <!-- ================================================================
+         DASHBOARD  (inside screen)
+         ================================================================ -->
+    <g id="dashboard">
+
+      <!-- Status bar -->
+      <line x1="547" y1="138" x2="1044" y2="138" stroke-width="3"/>
+
+      <!-- WiFi arcs -->
+      <path d="M 1010 131 Q 1016 125 1022 131" stroke-width="3"/>
+      <path d="M 1006 127 Q 1016 119 1026 127" stroke-width="3"/>
+      <path d="M 1002 123 Q 1016 112 1030 123" stroke-width="3"/>
+
+      <!-- Battery icon -->
+      <rect x="1033" y="126" width="14" height="8" rx="2" stroke-width="2.5"/>
+      <path d="M 1047 129 L 1050 129 L 1050 131 L 1047 131" stroke-width="2.5"/>
+
+      <!-- Horizontal divider: top panel / bottom panel -->
+      <line x1="547" y1="362" x2="1044" y2="362" stroke-width="4"/>
+
+      <!-- Bottom-panel vertical dividers -->
+      <line x1="722" y1="362" x2="722" y2="578" stroke-width="3.5"/>
+      <line x1="896" y1="362" x2="896" y2="578" stroke-width="3.5"/>
+
+
+      <!-- ---- TOP PANEL: vertical bars ---- -->
+      <g id="bar-chart" stroke-width="5">
+        <line x1="580"  y1="362" x2="580"  y2="290"/>
+        <line x1="598"  y1="362" x2="598"  y2="264"/>
+        <line x1="616"  y1="362" x2="616"  y2="306"/>
+        <line x1="634"  y1="362" x2="634"  y2="254"/>
+        <line x1="652"  y1="362" x2="652"  y2="284"/>
+        <line x1="670"  y1="362" x2="670"  y2="237"/>
+        <line x1="688"  y1="362" x2="688"  y2="300"/>
+        <line x1="706"  y1="362" x2="706"  y2="270"/>
+        <line x1="724"  y1="362" x2="724"  y2="314"/>
+        <line x1="742"  y1="362" x2="742"  y2="247"/>
+        <line x1="760"  y1="362" x2="760"  y2="274"/>
+        <line x1="778"  y1="362" x2="778"  y2="292"/>
+        <line x1="796"  y1="362" x2="796"  y2="252"/>
+        <line x1="814"  y1="362" x2="814"  y2="308"/>
+        <line x1="832"  y1="362" x2="832"  y2="277"/>
+        <line x1="850"  y1="362" x2="850"  y2="262"/>
+        <line x1="868"  y1="362" x2="868"  y2="294"/>
+        <line x1="886"  y1="362" x2="886"  y2="240"/>
+        <line x1="904"  y1="362" x2="904"  y2="280"/>
+        <line x1="922"  y1="362" x2="922"  y2="304"/>
+        <line x1="940"  y1="362" x2="940"  y2="257"/>
+        <line x1="958"  y1="362" x2="958"  y2="287"/>
+        <line x1="976"  y1="362" x2="976"  y2="272"/>
+        <line x1="994"  y1="362" x2="994"  y2="247"/>
+        <line x1="1012" y1="362" x2="1012" y2="292"/>
+        <line x1="1030" y1="362" x2="1030" y2="314"/>
+      </g>
+
+
+      <!-- ---- TOP PANEL: ECG / signal line ---- -->
+      <path d="
+        M 547 304
+        L 622 304
+        L 643 247
+        L 665 360
+        L 682 277
+        L 700 304
+        L 765 304
+        L 788 242
+        L 812 364
+        L 830 267
+        L 850 304
+        L 916 304
+        L 938 238
+        L 960 368
+        L 976 262
+        L 996 304
+        L 1044 304"
+           stroke-width="6.5"/>
+
+
+      <!-- ---- TOP PANEL: up-arrow indicators ---- -->
+      <path d="M 634 174 L 634 154 M 626 164 L 634 154 L 642 164" stroke-width="4.5"/>
+      <path d="M 794 170 L 794 150 M 786 160 L 794 150 L 802 160" stroke-width="4.5"/>
+      <path d="M 938 168 L 938 148 M 930 158 L 938 148 L 946 158" stroke-width="4.5"/>
+
+
+      <!-- ---- BOTTOM LEFT: donut chart ---- -->
+      <g id="donut-chart" stroke-width="7">
+        <circle cx="634" cy="469" r="76"/>
+        <circle cx="634" cy="469" r="40"/>
+        <!-- Pie arc (~75% filled) -->
+        <!-- 75% arc (270° CW from 12 o'clock); end=(558,469) is on the circle -->
+        <path d="M 634 393 A 76 76 0 1 1 558 469"/>
+        <!-- Label lines placeholder -->
+        <line x1="616" y1="463" x2="652" y2="463" stroke-width="3.5"/>
+        <line x1="622" y1="476" x2="646" y2="476" stroke-width="3.5"/>
+      </g>
+
+
+      <!-- ---- BOTTOM CENTER: logo ---- -->
+      <g id="logo" stroke-width="4.5">
+
+        <!-- Logo icon box -->
+        <rect x="748" y="384" width="46" height="40" rx="5"/>
+
+        <!-- Mini bar chart inside icon -->
+        <line x1="758" y1="420" x2="758" y2="410" stroke-width="4"/>
+        <line x1="766" y1="420" x2="766" y2="400" stroke-width="4"/>
+        <line x1="774" y1="420" x2="774" y2="406" stroke-width="4"/>
+        <line x1="782" y1="420" x2="782" y2="396" stroke-width="4"/>
+
+        <!-- "Otimiza" stroke letterforms -->
+
+        <!-- O -->
+        <path d="M 800 386 Q 800 377 808 377 Q 816 377 816 386
+                 L 816 404 Q 816 412 808 412 Q 800 412 800 404 Z"/>
+
+        <!-- t -->
+        <line x1="822" y1="372" x2="822" y2="412"/>
+        <line x1="817" y1="385" x2="828" y2="385"/>
+
+        <!-- i -->
+        <line x1="833" y1="385" x2="833" y2="412"/>
+        <line x1="830" y1="374" x2="836" y2="374" stroke-width="5"/>
+
+        <!-- m -->
+        <path d="M 839 385 L 839 412
+                 M 839 392 Q 844 383 850 392 L 850 412
+                 M 850 392 Q 855 383 861 392 L 861 412"/>
+
+        <!-- i -->
+        <line x1="866" y1="385" x2="866" y2="412"/>
+        <line x1="863" y1="374" x2="869" y2="374" stroke-width="5"/>
+
+        <!-- z -->
+        <path d="M 871 385 L 882 385 L 871 412 L 882 412"/>
+
+        <!-- a -->
+        <path d="M 887 393 Q 887 385 894 385 Q 902 385 902 393 L 902 412"/>
+        <line x1="887" y1="402" x2="902" y2="402"/>
+
+        <!-- "TECH" subtitle (smaller strokes) -->
+        <!-- T -->
+        <line x1="762" y1="432" x2="782" y2="432" stroke-width="3"/>
+        <line x1="772" y1="432" x2="772" y2="448" stroke-width="3"/>
+        <!-- E -->
+        <path d="M 787 432 L 787 448
+                 M 787 432 L 797 432
+                 M 787 440 L 795 440
+                 M 787 448 L 797 448" stroke-width="3"/>
+        <!-- C -->
+        <path d="M 802 434 Q 802 430 806 430 Q 811 430 811 434
+                 M 802 445 Q 802 449 806 449 Q 811 449 811 445" stroke-width="3"/>
+        <!-- H -->
+        <path d="M 816 430 L 816 449
+                 M 826 430 L 826 449
+                 M 816 439 L 826 439" stroke-width="3"/>
+
+      </g>
+
+
+      <!-- ---- BOTTOM RIGHT: dog illustration ---- -->
+      <g id="dog" stroke-width="5">
+
+        <!-- Body (sitting) -->
+        <ellipse cx="980" cy="506" rx="52" ry="42"/>
+
+        <!-- Head -->
+        <circle cx="1008" cy="438" r="34"/>
+
+        <!-- Left ear (floppy) -->
+        <path d="M 984 421 Q 970 399 975 377
+                 Q 979 361 989 371 L 993 421"/>
+
+        <!-- Right ear -->
+        <path d="M 1028 419 Q 1041 396 1047 375
+                 Q 1054 359 1047 371 L 1038 419"/>
+
+        <!-- Eyes (stroke circles appear as solid dots at this scale) -->
+        <circle cx="998"  cy="432" r="4" stroke-width="8"/>
+        <circle cx="1018" cy="431" r="4" stroke-width="8"/>
+
+        <!-- Nose -->
+        <ellipse cx="1008" cy="449" rx="5" ry="3.5"/>
+
+        <!-- Mouth -->
+        <path d="M 1001 457 Q 1008 464 1016 457"/>
+
+        <!-- Tail -->
+        <path d="M 930 492 Q 912 468 920 446 Q 928 431 940 443"/>
+
+        <!-- Front legs -->
+        <line x1="966" y1="545" x2="960" y2="584"/>
+        <line x1="986" y1="549" x2="984" y2="587"/>
+
+        <!-- Back haunches / legs -->
+        <path d="M 1010 546 Q 1028 563 1030 584"/>
+        <path d="M 1022 543 Q 1042 557 1044 576"/>
+
+        <!-- Belly -->
+        <path d="M 945 530 Q 978 549 1012 530" stroke-width="3.5"/>
+
+        <!-- Paw details -->
+        <path d="M 956 584 Q 960 590 965 584" stroke-width="3.5"/>
+        <path d="M 978 587 Q 982 593 987 587" stroke-width="3.5"/>
+
+      </g>
+
+    </g>
+    <!-- /dashboard -->
+
+
+    <!-- ================================================================
+         COFFEE CUP
+         ================================================================ -->
+    <g id="cup" stroke-width="8">
+
+      <!-- Saucer -->
+      <ellipse cx="1285" cy="834" rx="118" ry="28"/>
+
+      <!-- Saucer inner ridge -->
+      <ellipse cx="1285" cy="834" rx="72" ry="17"/>
+
+      <!-- Cup body (tapered cylinder — sides straight, bottom curves) -->
+      <path d="M 1202 730 L 1202 808 Q 1285 832 1368 808 L 1368 730"/>
+
+      <!-- Cup top opening -->
+      <ellipse cx="1285" cy="730" rx="83" ry="21"/>
+
+      <!-- Beverage surface -->
+      <ellipse cx="1285" cy="730" rx="66" ry="16"/>
+
+      <!-- Handle -->
+      <path d="M 1368 750 Q 1420 750 1422 773 Q 1424 797 1368 806"/>
+
+      <!-- Logo band top -->
+      <path d="M 1202 758 Q 1285 742 1368 758" stroke-width="4"/>
+
+      <!-- Logo band bottom -->
+      <path d="M 1202 790 Q 1285 774 1368 790" stroke-width="4"/>
+
+      <!-- Mini bar-chart logo on cup -->
+      <line x1="1258" y1="766" x2="1258" y2="783" stroke-width="4"/>
+      <line x1="1266" y1="766" x2="1266" y2="776" stroke-width="4"/>
+      <line x1="1274" y1="766" x2="1274" y2="779" stroke-width="4"/>
+      <line x1="1282" y1="766" x2="1282" y2="771" stroke-width="4"/>
+      <line x1="1254" y1="783" x2="1286" y2="783" stroke-width="4"/>
+
+    </g>
+
+
+  </g>
+</svg>
