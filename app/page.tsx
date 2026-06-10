@@ -1,17 +1,14 @@
 import Header from "@/components/Header";
 import Hero from "@/components/sections/Hero";
 import Services from "@/components/sections/Services";
+import Approach from "@/components/sections/Approach";
+import ApproachBanner from "@/components/sections/ApproachBanner";
 import Achievements from "@/components/sections/Achievements";
-import BookCTA from "@/components/sections/BookCTA";
+import CtaBanner from "@/components/sections/CtaBanner";
 import Companies from "@/components/sections/Companies";
-import Testimonials from "@/components/sections/Testimonials";
-import About from "@/components/sections/About";
 import Process from "@/components/sections/Process";
-import Team from "@/components/sections/Team";
-import Blog from "@/components/sections/Blog";
-import Contact from "@/components/sections/Contact";
 import Footer from "@/components/Footer";
-import { Calendar } from "lucide-react";
+import ContactModal from "@/components/ContactModal";
 
 export default function Home() {
   return (
@@ -21,22 +18,14 @@ export default function Home() {
         <Hero />
         <Services />
         <Achievements />
+        <CtaBanner />
+        <Approach />
         <Companies />
-        <Testimonials />
-        <About />
+        <ApproachBanner />
         <Process />
-        <Team />
-        <BookCTA
-          label="Pronto para otimizar seus resultados?"
-          subtitle="Fale com nossa equipe técnica hoje e agende uma consultoria sem compromisso para o seu negócio."
-          ctaText="Agendar Conversa"
-          ctaIcon={<Calendar />}
-          center
-        />
-        <Blog />
-        <Contact />
       </main>
       <Footer />
+      <ContactModal />
     </>
   );
 }

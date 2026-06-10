@@ -55,11 +55,9 @@ export default function Header() {
             {[
               ["#inicio", "Início"],
               ["#servicos", "Serviços"],
+              ["#abordagem", "Abordagem"],
               ["#cases", "Cases"],
-              ["#sobre", "Quem Somos"],
               ["#processo", "Processo"],
-              ["#equipe", "Equipe"],
-              ["#blog", "Blog"],
             ].map(([href, label]) => (
               <li key={href}>
                 <a href={href} onClick={close}>{label}</a>
@@ -89,11 +87,9 @@ export default function Header() {
             {[
               ["#inicio", "Início"],
               ["#servicos", "Serviços"],
+              ["#abordagem", "Abordagem"],
               ["#cases", "Cases"],
-              ["#sobre", "Quem Somos"],
               ["#processo", "Processo"],
-              ["#equipe", "Equipe"],
-              ["#blog", "Blog"],
             ].map(([href, label]) => (
               <li key={href}><a href={href}>{label}</a></li>
             ))}

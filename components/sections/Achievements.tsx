@@ -6,7 +6,7 @@ export default function Achievements() {
       <div className="container">
         <div className="section-header text-center margin-auto reveal fade-up">
           <h2 className="section-title">Nossas Conquistas</h2>
-          <p className="section-subtitle">Avaliações reais de clientes que transformaram seus negócios conosco.</p>
+
         </div>
 
         <div className="achievements-list reveal fade-up">
@@ -44,14 +44,14 @@ export default function Achievements() {
             </div>
           </div>
 
-          {/* 99% */}
+          {/* 100% */}
           <div className="achievements-item">
             <div className="achieve-icon achieve-badge">
-              <span>99%</span>
+              <span>100%</span>
             </div>
             <div className="achieve-detail">
               <div className="achieve-rating">
-                <span className="text-rating">99%</span>
+                <span className="text-rating">100%</span>
               </div>
               <p className="text-based">Índice de satisfação de clientes</p>
             </div>
