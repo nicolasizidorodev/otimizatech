@@ -32,7 +32,7 @@ export default function Footer() {
     <footer>
       <div className="container footer-container">
         <div className="footer-brand">
-          <Image src="/logo-footer.svg" alt="Otimiza Tech" width={240} height={64} className="logo-img--footer" />
+          <Image src="/logo-footer.svg" alt="Otimiza Tech" width={289} height={64} className="logo-img--footer" />
           <p className="footer-desc">
             Soluções tecnológicas inteligentes para otimização de processos e aceleração de crescimento comercial.
           </p>

@@ -223,7 +223,7 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; bord
 /* ==========================================================================
    LOGO
    ========================================================================== */
-.logo-img { height: 82px; width: auto; max-width: 300px; display: block; flex-shrink: 0; object-fit: contain; }
+.logo-img { height: 44px; width: auto; max-width: 210px; display: block; flex-shrink: 0; object-fit: contain; }
 
 /* Puxa a logo para alinhar a borda visual do glifo com a borda externa do
    grid (card de Serviços / início do Hero). Compensa o padding-left de 24px
@@ -1379,7 +1379,7 @@ footer { width: 100%; background-color: #000000; background-image: radial-gradie
 
 .footer-container { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.2fr 1.3fr; gap: 40px; margin-bottom: 60px; align-items: start; }
 
-.logo-img--footer { height: 80px; width: auto; max-width: 300px; margin-bottom: 20px; }
+.logo-img--footer { height: 60px; width: auto; max-width: 290px; margin-bottom: 20px; }
 
 .footer-desc { font-size: 0.9rem; line-height: 1.6; margin-bottom: 24px; color: #94a3b8; }
 
@@ -1743,7 +1743,7 @@ footer { width: 100%; background-color: #000000; background-image: radial-gradie
   .footer-legal { justify-content: center; }
 
   /* logo menor no header em telas estreitas */
-  .logo-img { height: 60px; }
+  .logo-img { height: 40px; }
   .header-container { padding: 10px 16px; width: calc(100% - 32px); }
   /* logo menor → menos espaço em branco interno, recuo ainda menor */
   .header-container > .logo-link .logo-img { margin-left: -10px; }

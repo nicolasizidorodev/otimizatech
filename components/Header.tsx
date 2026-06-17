@@ -45,7 +45,7 @@ export default function Header() {
 
       <div className={`offcanvas-mobile ${isOpen ? "open" : ""}`}>
         <div className="offcanvas-header">
-          <Image src="/logo.svg" alt="Otimiza Tech" width={180} height={48} style={{ height: 48, width: "auto" }} />
+          <Image src="/logo.svg" alt="Otimiza Tech" width={217} height={48} style={{ height: 48, width: "auto" }} />
           <button className="offcanvas-close" onClick={close} aria-label="Fechar Menu">
             <X />
           </button>
@@ -79,7 +79,7 @@ export default function Header() {
 
       <div className="header-container">
         <a href="#inicio" className="logo-link" aria-label="Otimiza Tech Home">
-          <Image src="/logo.svg" alt="Otimiza Tech" width={300} height={82} className="logo-img" />
+          <Image src="/logo.svg" alt="Otimiza Tech" width={370} height={82} className="logo-img" />
         </a>
 
         <nav id="nav-menu" className="nav-menu">
